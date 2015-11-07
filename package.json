@@ -1,0 +1,30 @@
+{
+  "name": "agilemanager-api",
+  "version": "1.0.0",
+  "description": "HPE's Agile Manager client API module for NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lirantal/agilemanager-api.git"
+  },
+  "keywords": [
+    "agm",
+    "agilemanager",
+    "agile-manager",
+    "api",
+    "hpe"
+  ],
+  "author": "Liran Tal <liran.tal@gmail.com> (http://www.enginx.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lirantal/agilemanager-api/issues"
+  },
+  "homepage": "https://github.com/lirantal/agilemanager-api#readme",
+  "dependencies": {
+    "lodash": "^3.10.1",
+    "request": "^2.65.0"
+  }
+}
