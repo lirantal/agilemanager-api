@@ -30,6 +30,21 @@ agm.login(function (err, body) {
 
 # Agile Manager API Usage
 
+## RESTful API
+
+Agile Manager's API is RESTful and supports 
+
+* GET fetch a new item
+* POST creates a new item
+* PUT updates an item
+* DELETE removes an item
+
+As can be illustrated in the following screenshot
+![image](https://cloud.githubusercontent.com/assets/316371/11032700/45644dd2-86e6-11e5-918d-65226aa6aaee.png)
+
+(image credit to HPE's Agile Manager API Intractive Help (beta)
+
+## Resources
 The API supports the following resources, which can be used as part of the `query` method:
 * applications
 * backlog_items
