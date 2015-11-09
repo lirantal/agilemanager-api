@@ -30,7 +30,6 @@
   "homepage": "https://github.com/lirantal/agilemanager-api#readme",
   "dependencies": {
     "lodash": "^3.10.1",
-    "querystring": "^0.2.0",
     "request": "^2.65.0"
   }
 }
