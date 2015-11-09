@@ -28,6 +28,25 @@ agm.login(function (err, body) {
 });
 ```
 
+# Agile Manager API Usage
+
+The API supports the following resources, which can be used as part of the `query` method:
+* applications
+* backlog_items
+* backlog_item (attachments)
+* features
+* feature (attachments)
+* release_teams
+* releases
+* release (attachments)
+* sprints
+* tasks
+* team_members
+* teams
+* themes
+* theme (attachments)
+* workspaces
+
 
 # Author
 Liran Tal <liran.tal@gmail.com>
