@@ -1,6 +1,8 @@
 # agilemanager-api
 HPE's Agile Manager client API module for NodeJS
 
+[[toc]]
+
 # Install
 
 npm install agilemanager-api
@@ -38,6 +40,55 @@ agm.login(function (err, body) {
    */ 
   
   // Do something with token...
+});
+```
+
+## `query` Example
+
+Perform an AGM `query` method on any type of resource.
+The `query` method expects an object with the following members:
+* workspaceId - the workspace id in AGM
+* resource - the resource type, can be any one of the listed [resources](https://github.com/lirantal/agilemanager-api#resources) 
+* query - the actual query to perform, accepting statements with ; char as a logical AND and || as logical OR
+* fields - a list of specific fields to be filtered in the returned response
+* orderBy - a field to order the results, by default results are of ascending order or with a prefix - symbol for decesending results (for example: `fields: -name`)
+* limit and offset - both of these options allow to specify numbers for the purpose of paginated results
+
+For example, to query for a list of backlog items, with id bigger than 2000, and getting back only the name field in the JSON response:
+```javascript
+
+// Prepare the query options object
+var queryOptions = {
+	workspaceId: '1000',
+	resource: 'backlog_items',
+	query: 'id>2000',
+	fields: 'id,name',
+	orderBy: 'name',
+	limit: 10,
+	offset: 0
+};
+
+// Call the query method using the 
+agm.query(queryOptions, function(err, body) {
+  /**
+   * body contains a JSON object response with data member and TotalResults member:
+   * {
+   *  data: 
+   *   [{
+   *     type: 'backlog_item',
+   *     subtype: 'defect',
+   *     id: 2012,
+   *     name: 'URL uploaded images are not cropped
+   correctly'
+   *   }],
+   *  TotalResults: 1
+   * }
+   *
+   *
+   *
+   */
+
+  // Do something with body JSON object resopnse
 });
 ```
 
