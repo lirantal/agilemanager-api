@@ -1,8 +1,6 @@
 # agilemanager-api
 HPE's Agile Manager client API module for NodeJS
 
-[[toc]]
-
 # Install
 
 npm install agilemanager-api
@@ -45,8 +43,9 @@ agm.login(function (err, body) {
 
 ## `query` Example
 
-Perform an AGM `query` method on any type of resource.
-The `query` method expects an object with the following members:
+Perform an AGM `agm.query(fn)` method on any type of resource.
+
+The `agm.query(fn)` method expects an object with the following members:
 * workspaceId - the workspace id in AGM
 * resource - the resource type, can be any one of the listed [resources](https://github.com/lirantal/agilemanager-api#resources) 
 * query - the actual query to perform, accepting statements with ; char as a logical AND and || as logical OR
@@ -89,6 +88,102 @@ agm.query(queryOptions, function(err, body) {
    */
 
   // Do something with body JSON object resopnse
+});
+```
+
+
+## `resources` Example
+
+Using the `agm.resources(fn)` method it's possible to perform CRUD operations directly on any type of supported [resources](https://github.com/lirantal/agilemanager-api#resources).
+
+### Example of creating a user story:
+```javascript
+/**
+ * Perform a query on a workspace and resource
+ * Create a user story
+ *
+ * @param {object} resourceOptions - expect an object with the following:
+ *   - workspaceId - the workspace id
+ *   - resource - the type of resource to perform the action on (@see list of [resources](https://github.com/lirantal/agilemanager-api#resources)
+ *   - method - one of: GET, POST, PUT, DELETE
+ *   - data - an array of objects with the backlog item supported fields, allowing to create more than one backlog item with fie
+ */
+
+var resourceOptions = {
+	workspaceId: '1000',
+	resource: 'backlog_items',
+	method: 'POST',
+	data: [{
+		name: 'New user story',
+		subtype: 'user_story'
+	}]
+};
+
+agm.resource(resourceOptions, function(err, body) {
+
+	// Returned JSON response object in body looks as follows:
+	//
+	// { data: 
+	//    [ { type: 'backlog_item',
+	//        subtype: 'user_story',
+	//        story_priority: null,
+	//        num_of_tasks: null,
+	//        cover_status: 'Not Covered',
+	//        release_id: null,
+	//        id: 1945,
+	//        kanban_status_id: null,
+	//        author: 'api_client_49871541_16',
+	//        rank: 3610000,
+	//        remaining: null,
+	//        estimated: null,
+	//        description: null,
+	//        name: 'New user story',
+	//        dev_comments: null,
+	//        kan_status_duration: 0,
+	//        blocked: null,
+	//        application_id: null,
+	//        kanban_parent_status_id: null,
+	//        status: 'New',
+	//        story_points: null,
+	//        sprint_id: null,
+	//        creation_date: '2015-11-09',
+	//        kan_parent_duration: 0,
+	//        last_modified: '2015-11-09T18:44:20Z',
+	//        theme_id: null,
+	//        team_id: null,
+	//        invested: null,
+	//        assigned_to: null,
+	//        actual: null,
+	//        archive_status: 0,
+	//        feature_id: null } ],
+	//   TotalResults: 1 }
+
+        // Do more things with the body response object...
+});
+```
+### Example of deleting a user story
+Example of creating a user story:
+```javascript
+/**
+ * Perform a query on a workspace and resource
+ * Create a user story
+ *
+ * @param {object} resourceOptions - expect an object with the following:
+ *   - workspaceId - the workspace id
+ *   - resource - the type of resource to perform the action on (@see list of [resources](https://github.com/lirantal/agilemanager-api#resources)
+ *   - method - one of: GET, POST, PUT, DELETE
+ *   - data - an array of objects with the backlog item supported fields, allowing to create more than one backlog item with fie
+ */
+
+var resourceOptions = {
+	workspaceId: '1000',
+	resource: 'backlog_items',
+	method: 'DELETE',
+	entityId: '1945'
+};
+
+agm.resource(resourceOptions, function(err, body) {
+        // Do more things with the body response object...
 });
 ```
 
