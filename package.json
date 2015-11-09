@@ -1,10 +1,10 @@
 {
   "name": "agilemanager-api",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "HPE's Agile Manager client API module for NodeJS",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha test/test.js"
   },
   "repository": {
     "type": "git",
@@ -31,5 +31,9 @@
   "dependencies": {
     "lodash": "^3.10.1",
     "request": "^2.65.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.3.3",
+    "should": "^7.1.1"
   }
 }
