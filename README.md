@@ -10,8 +10,8 @@ npm install agilemanager-api
 Prepare an options object with clientId and clientSecret keys from Agile Manager's configuration area:
 ```javascript
 var options = {
-	clientId: 'api_client_29861862_2',
-	clientSecret: 'N8CbtgIFIV4F9Oa'
+	clientId: 'api_client_0000000_0',
+	clientSecret: 'lknNSDASY6458ub'
 };
 ```
 
