@@ -1,6 +1,14 @@
 # agilemanager-api
 HPE's Agile Manager client API module for NodeJS
 
+
+# Example Use Case: Dashboard
+
+Easily integrate with Agile Manager to create your very own dashboard UI:
+
+![image](https://cloud.githubusercontent.com/assets/316371/11165523/68f54c78-8b1a-11e5-81f0-9ab988d5cdc5.png)
+
+
 # Install
 
 npm install agilemanager-api
