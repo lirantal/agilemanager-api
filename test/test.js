@@ -17,7 +17,7 @@ describe('agilemanager-api test suite', function () {
 
     it('should return an auth token', function(done) {
 
-      agm.login(function (err, body){
+      agm.login(function (err, body) {
 
         should.not.exist(err);
 

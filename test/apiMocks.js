@@ -7,7 +7,7 @@
 /**
  * Module dependencies.
  */
-var nock	= require('nock');
+var nock = require('nock');
 
 var apiMocks = function() {
 	nock('https://agilemanager-ast.saas.hp.com')
