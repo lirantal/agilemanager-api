@@ -4,7 +4,7 @@ var should = require('should');
 var AGM = require('../index.js');
 var apiMocks  = require('./apiMocks')();
 
-describe('agilemanager-api test suite', function () {
+describe('API Tests Suite', function () {
 
   var options = {
     clientId: 'admin',
@@ -13,7 +13,7 @@ describe('agilemanager-api test suite', function () {
 
   var agm = new AGM(options);
 
-  describe('method login', function() {
+  describe('AGM.login method should return valid auth token', function() {
 
     it('should return an auth token', function(done) {
 
