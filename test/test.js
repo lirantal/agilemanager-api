@@ -2,12 +2,13 @@
 
 var should = require('should');
 var AGM = require('../index.js');
+var apiMocks  = require('./apiMocks')();
 
 describe('agilemanager-api test suite', function () {
 
   var options = {
-    clientId: '',
-    clientSecret: ''
+    clientId: 'admin',
+    clientSecret: 'admin'
   };
 
   var agm = new AGM(options);
