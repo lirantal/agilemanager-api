@@ -9,13 +9,15 @@
  */
 var should = require('should');
 var AGM = require('../index.js');
+var testConfig = require('./testConfig.js');
 var apiMocks  = require('./apiMocks')();
 
 describe('API Tests Suite', function () {
 
   var options = {
-    clientId: 'admin',
-    clientSecret: 'admin'
+    clientId: testConfig.clientId,
+    clientSecret: testConfig.clientSecret,
+    apiUrl: testConfig.apiUrl
   };
 
   var agm = new AGM(options);
