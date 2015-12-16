@@ -1,5 +1,12 @@
 'use strict'
+/**
+ * Tests
+ * @module tests
+ */
 
+/**
+ * Module dependencies.
+ */
 var should = require('should');
 var AGM = require('../index.js');
 var apiMocks  = require('./apiMocks')();
