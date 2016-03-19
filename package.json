@@ -24,8 +24,8 @@
   },
   "homepage": "https://github.com/lirantal/agilemanager-api#readme",
   "dependencies": {
-    "lodash": "^3.10.1",
-    "request": "^2.65.0"
+    "lodash": "^4.6.1",
+    "request": "^2.69.0"
   },
   "devDependencies": {
     "mocha": "^2.3.3",
