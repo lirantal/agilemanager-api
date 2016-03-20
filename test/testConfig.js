@@ -1,4 +1,5 @@
-'use strict'
+'use strict';
+
 /**
  * Tests Configuration
  * @module test configuration

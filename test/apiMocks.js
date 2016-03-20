@@ -1,4 +1,5 @@
-'use strict'
+'use strict';
+
 /**
  * Tests API Mocks resource
  * @module tests api mocks
