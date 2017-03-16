@@ -1,6 +1,6 @@
 {
   "name": "agilemanager-api",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "HPE's Agile Manager client API module for NodeJS",
   "main": "index.js",
   "scripts": {
