@@ -4,7 +4,8 @@
   "description": "HPE's Agile Manager client API module for NodeJS",
   "main": "index.js",
   "scripts": {
-    "test": "nyc mocha test/test.js"
+    "test": "nyc mocha test/test.js",
+    "coverage": "nyc report --reporter=text-lcov | coveralls"
   },
   "repository": {
     "type": "git",
@@ -28,6 +29,7 @@
     "request": "^2.69.0"
   },
   "devDependencies": {
+    "coveralls": "^2.12.0",
     "mocha": "^2.4.5",
     "nock": "^7.4.0",
     "nyc": "^10.1.2",
