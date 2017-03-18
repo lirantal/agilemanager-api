@@ -4,6 +4,9 @@
 [![Dependency Status](https://david-dm.org/lirantal/agilemanager-api.svg)](https://david-dm.org/lirantal/agilemanager-api)
 [![Build](https://travis-ci.org/lirantal/agilemanager-api.svg?branch=master)](https://travis-ci.org/lirantal/agilemanager-api)
 [![Coverage Status](https://coveralls.io/repos/lirantal/agilemanager-api/badge.svg?branch=master&service=github)](https://coveralls.io/github/lirantal/agilemanager-api?branch=master)
+[![bitHound Overall Score](https://www.bithound.io/github/lirantal/agilemanager-api/badges/score.svg)]
+(https://www.bithound.io/github/lirantal/agilemanager-api)
+[![bitHound Code](https://www.bithound.io/github/lirantal/agilemanager-api/badges/code.svg)](https://www.bithound.io/github/lirantal/agilemanager-api)
 
 # agilemanager-api
 HPE's Agile Manager client API module for NodeJS
