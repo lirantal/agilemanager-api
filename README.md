@@ -8,6 +8,8 @@
 [![bitHound Code](https://www.bithound.io/github/lirantal/agilemanager-api/badges/code.svg)](https://www.bithound.io/github/lirantal/agilemanager-api)
 
 # agilemanager-api
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/lirantal/agilemanager-api.svg)](https://greenkeeper.io/)
 HPE's Agile Manager client API module for NodeJS
 
 
