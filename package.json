@@ -28,7 +28,7 @@
   "dependencies": {
     "lodash": "^4.6.1",
     "request": "^2.69.0",
-    "semantic-release": "^12.4.1"
+    "semantic-release": "^15.0.0"
   },
   "devDependencies": {
     "coveralls": "^3.0.0",
