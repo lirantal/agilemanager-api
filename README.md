@@ -6,6 +6,8 @@
 [![Coverage Status](https://coveralls.io/repos/lirantal/agilemanager-api/badge.svg?branch=master&service=github)](https://coveralls.io/github/lirantal/agilemanager-api?branch=master)
 [![bitHound Overall Score](https://www.bithound.io/github/lirantal/agilemanager-api/badges/score.svg)](https://www.bithound.io/github/lirantal/agilemanager-api)
 [![bitHound Code](https://www.bithound.io/github/lirantal/agilemanager-api/badges/code.svg)](https://www.bithound.io/github/lirantal/agilemanager-api)
+[![Security Responsible Disclosure](https://img.shields.io/badge/Security-Responsible%20Disclosure-yellow.svg)](https://github.com/nodejs/security-wg/blob/master/processes/responsible_disclosure_template.md)
+
 
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg?style=flat)](https://github.com/semantic-release/semantic-release)
 [![Greenkeeper badge](https://badges.greenkeeper.io/lirantal/agilemanager-api.svg)](https://greenkeeper.io/)
