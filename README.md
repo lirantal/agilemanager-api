@@ -4,7 +4,6 @@
 [![Build](https://travis-ci.org/lirantal/agilemanager-api.svg?branch=master)](https://travis-ci.org/lirantal/agilemanager-api)
 [![Coverage Status](https://coveralls.io/repos/lirantal/agilemanager-api/badge.svg?branch=master&service=github)](https://coveralls.io/github/lirantal/agilemanager-api?branch=master)
 [![Security Responsible Disclosure](https://img.shields.io/badge/Security-Responsible%20Disclosure-yellow.svg)](https://github.com/nodejs/security-wg/blob/master/processes/responsible_disclosure_template.md)
-[![agilemanager-api](https://snyk.io/advisor/npm-package/agilemanager-api/badge.svg)](https://snyk.io/advisor/npm-package/agilemanager-api)
 
 
 # agilemanager-api
