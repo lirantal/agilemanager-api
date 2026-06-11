@@ -1,8 +1,4 @@
 {
-  "publishConfig": {
-    "provenance": true,
-    "access": "public"
-  },
   "name": "agilemanager-api",
   "version": "1.0.2",
   "description": "HPE's Agile Manager client API module for NodeJS",
@@ -60,5 +56,9 @@
         }
       ]
     }
+  },
+  "publishConfig": {
+    "provenance": true,
+    "access": "public"
   }
 }
