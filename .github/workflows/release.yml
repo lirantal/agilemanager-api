@@ -25,7 +25,7 @@ jobs:
         with:
           node-version: 24.x
       - name: install dependencies
-        run: yarn install --frozen-lockfile
+        run: yarn install --frozen-lockfile --ignore-engines
       - name: build project
         run: yarn run build
       - name: Create Release Pull Request or Publish to npm
