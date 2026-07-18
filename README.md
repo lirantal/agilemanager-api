@@ -1,7 +1,7 @@
 [![view on npm](http://img.shields.io/npm/v/agilemanager-api.svg)](https://www.npmjs.org/package/agilemanager-api)
 [![view on npm](http://img.shields.io/npm/l/agilemanager-api.svg)](https://www.npmjs.org/package/agilemanager-api)
 [![npm module downloads](http://img.shields.io/npm/dt/agilemanager-api.svg)](https://www.npmjs.org/package/agilemanager-api)
-[![Build](https://travis-ci.org/lirantal/agilemanager-api.svg?branch=master)](https://travis-ci.org/lirantal/agilemanager-api)
+<a href="https://github.com/lirantal/agilemanager-api/actions/workflows/ci.yml"><img src="https://github.com/lirantal/agilemanager-api/actions/workflows/ci.yml/badge.svg?branch=master" alt="build"/></a>
 [![Coverage Status](https://coveralls.io/repos/lirantal/agilemanager-api/badge.svg?branch=master&service=github)](https://coveralls.io/github/lirantal/agilemanager-api?branch=master)
 [![Security Responsible Disclosure](https://img.shields.io/badge/Security-Responsible%20Disclosure-yellow.svg)](https://github.com/nodejs/security-wg/blob/master/processes/responsible_disclosure_template.md)
 

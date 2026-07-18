@@ -6,7 +6,11 @@
   "scripts": {
     "test": "nyc mocha test/test.js",
     "coverage": "nyc report --reporter=text-lcov | coveralls",
-    "semantic-release": "semantic-release"
+    "lint": "echo \"No lint step configured\"",
+    "build": "echo \"No build step configured\"",
+    "lint:markdown": "markdownlint -c .github/.markdownlint.yml '**/**.md'",
+    "version": "changeset version",
+    "release": "changeset publish"
   },
   "repository": {
     "type": "git",
@@ -27,35 +31,17 @@
   "homepage": "https://github.com/lirantal/agilemanager-api#readme",
   "dependencies": {
     "lodash": "^4.17.11",
-    "request": "^2.84.0",
-    "semantic-release": "^15.9.15"
+    "request": "^2.84.0"
   },
   "devDependencies": {
     "coveralls": "^3.0.0",
     "mocha": "^5.0.0",
     "nock": "^10.0.0",
     "nyc": "^12.0.1",
-    "should": "^13.1.3"
-  },
-  "release": {
-    "branch": "master",
-    "analyzeCommits": {
-      "preset": "angular",
-      "releaseRules": [
-        {
-          "type": "docs",
-          "release": "patch"
-        },
-        {
-          "type": "refactor",
-          "release": "patch"
-        },
-        {
-          "type": "style",
-          "release": "patch"
-        }
-      ]
-    }
+    "should": "^13.1.3",
+    "@changesets/changelog-github": "^0.6.0",
+    "@changesets/cli": "^2.31.0",
+    "markdownlint-cli": "0.45.0"
   },
   "publishConfig": {
     "provenance": true,
