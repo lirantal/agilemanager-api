@@ -8,7 +8,7 @@
     "coverage": "nyc report --reporter=text-lcov | coveralls",
     "lint": "echo \"No lint step configured\"",
     "build": "echo \"No build step configured\"",
-    "lint:markdown": "markdownlint -c .github/.markdownlint.yml '**/**.md'",
+    "lint:markdown": "markdownlint -c .github/.markdownlint.yml -i 'apm_modules/**' -i '.git' -i '__tests__' -i '.github' -i '.changeset' -i 'CODE_OF_CONDUCT.md' -i 'CHANGELOG.md' -i 'docs/**' -i '.superpowers/**' -i 'node_modules' -i 'dist' '**/**.md'",
     "version": "changeset version",
     "release": "changeset publish",
     "semantic-release": "semantic-release"
@@ -37,13 +37,13 @@
   },
   "devDependencies": {
     "coveralls": "^3.0.0",
-    "mocha": "^5.0.0",
-    "nock": "^10.0.0",
-    "nyc": "^12.0.1",
+    "mocha": "^11.7.6",
+    "nock": "^14.0.15",
+    "nyc": "^18.0.0",
     "should": "^13.1.3",
-    "@changesets/changelog-github": "^0.6.0",
+    "@changesets/changelog-github": "^0.7.0",
     "@changesets/cli": "^2.31.0",
-    "markdownlint-cli": "0.45.0"
+    "markdownlint-cli": "0.49.0"
   },
   "publishConfig": {
     "provenance": true,
