@@ -4523,10 +4523,10 @@ safe-buffer@^5.1.2, safe-buffer@~5.1.0, safe-buffer@~5.1.1:
   resolved "https://registry.yarnpkg.com/safer-buffer/-/safer-buffer-2.1.2.tgz#44fa161b0187b9549dd84bb91802f9bd8385cd6a"
   integrity sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==
 
-semantic-release@25.0.6:
-  version "25.0.6"
-  resolved "https://registry.yarnpkg.com/semantic-release/-/semantic-release-25.0.6.tgz#3da98b49fe38308fee2335729367f144e9ebbd27"
-  integrity sha512-EGS5PWCDavYD4jAE4vKQ+VKcwXFpxLsKg05UcrUQwqxUCM1KtNRx9ZdMyYJL3z2aTyAH9zDgQSNFjRvbsIuKHQ==
+semantic-release@25.0.8:
+  version "25.0.8"
+  resolved "https://registry.yarnpkg.com/semantic-release/-/semantic-release-25.0.8.tgz#a665bbcd3aa56ed602854d26094406dcfb1e9aea"
+  integrity sha512-w/iZ0bur36rKffXZYmIUmy068eoBY3Ij1DCCddx2JwWEM5Tg+eU9ld/E9qSInVvPASyyR2Ln/XGfQ9OZrMlhtw==
   dependencies:
     "@semantic-release/commit-analyzer" "^13.0.1"
     "@semantic-release/error" "^4.0.0"
