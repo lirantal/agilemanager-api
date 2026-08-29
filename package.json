@@ -4,7 +4,7 @@
   "description": "HPE's Agile Manager client API module for NodeJS",
   "main": "index.js",
   "scripts": {
-    "test": "nyc mocha test/test.js",
+    "test": "nyc mocha test/test.js && npm run coverage",
     "coverage": "nyc report --reporter=text-lcov | coveralls",
     "lint": "echo \"No lint step configured\"",
     "build": "echo \"No build step configured\"",
