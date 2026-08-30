@@ -2,8 +2,7 @@
 [![view on npm](http://img.shields.io/npm/l/agilemanager-api.svg)](https://www.npmjs.org/package/agilemanager-api)
 [![npm module downloads](http://img.shields.io/npm/dt/agilemanager-api.svg)](https://www.npmjs.org/package/agilemanager-api)
 <a href="https://github.com/lirantal/agilemanager-api/actions/workflows/ci.yml"><img src="https://github.com/lirantal/agilemanager-api/actions/workflows/ci.yml/badge.svg?branch=master" alt="build"/></a>
-[![Coverage Status](https://coveralls.io/repos/lirantal/agilemanager-api/badge.svg?branch=master&service=github)](https://coveralls.io/github/lirantal/agilemanager-api?branch=master)
-
+[![codecov](https://codecov.io/gh/lirantal/agilemanager-api/graph/badge.svg?token=RLKBszAoiH)](https://codecov.io/gh/lirantal/agilemanager-api)
 
 # agilemanager-api
 
