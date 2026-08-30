@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "nyc mocha test/test.js && npm run coverage",
-    "coverage": "nyc report --reporter=text-lcov | coveralls",
+    "coverage": "nyc report --reporter=text-lcov",
     "lint": "echo \"No lint step configured\"",
     "build": "echo \"No build step configured\"",
     "lint:markdown": "markdownlint -c .github/.markdownlint.yml -i 'apm_modules/**' -i '.git' -i '__tests__' -i '.github' -i '.changeset' -i 'CODE_OF_CONDUCT.md' -i 'CHANGELOG.md' -i 'docs/**' -i '.superpowers/**' -i 'node_modules' -i 'dist' '**/**.md'",
