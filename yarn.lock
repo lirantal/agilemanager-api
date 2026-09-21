@@ -210,9 +210,9 @@
     "@changesets/types" "^7.0.0"
 
 "@changesets/cli@^3.0.0":
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/@changesets/cli/-/cli-3.0.0.tgz#f45c904162b221cb3a9ec46637750d79f5e1fa12"
-  integrity sha512-V7Gm+GP5OT3mJinMI2YcJD/JyO/a4WChnaMCCzTRhWHgu1zhtsyY7zCjP6n5W6zsgSjJKs+yPmvtREvE0F2g8A==
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@changesets/cli/-/cli-3.0.1.tgz#a6a3d6285a56f4c65f4920ff26a299b272bda26e"
+  integrity sha512-3IVpRSgiKDj2aRbBHKtWTXSRH2/iR3bWxau9iQUoEsZjDhRIj9nhl90k7FWMxZAJvLgJBbgMq8+qS0xQsenYsQ==
   dependencies:
     "@changesets/apply-release-plan" "^8.0.0"
     "@changesets/assemble-release-plan" "^7.0.0"
@@ -225,7 +225,7 @@
     "@changesets/read" "^1.0.0"
     "@changesets/should-skip-package" "^1.0.0"
     "@changesets/types" "^7.0.0"
-    "@changesets/write" "^1.0.0"
+    "@changesets/write" "^1.0.1"
     "@clack/prompts" "^1.7.0"
     "@manypkg/get-packages" "^3.1.0"
     "@pnpm/deps.graph-sequencer" "^1100.0.1"
@@ -324,7 +324,7 @@
   resolved "https://registry.yarnpkg.com/@changesets/types/-/types-7.0.0.tgz#60883fa02b6dbe1b68b025760ff4f7386c3da8c7"
   integrity sha512-c5GoiQyt3pxiXjrWSNoP8/GRf4kG+VnKzovx1OQM8dYYALlSwgedmkPmJ+ZqGxqwg9D3Bkj85Uo4KLd5BN3A0w==
 
-"@changesets/write@^1.0.0":
+"@changesets/write@^1.0.1":
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/@changesets/write/-/write-1.0.1.tgz#4aa7dcb7ff976710775aef2d9db3b18bfd06c34c"
   integrity sha512-q/ThtP9gcnEP6xlv7LrY26C2mHqdGBti/MmOVngt/M/oIGYkssmQGxPK9WzBNt2juVcH/vml2WQ+ra8LXYOTaA==
