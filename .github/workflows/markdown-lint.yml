@@ -24,6 +24,8 @@ jobs:
 
       - name: Set up pinned npm
         run: bash "${{ github.workspace }}/.github/scripts/setup-npm.sh"
+      - name: Set up pinned Yarn
+        run: bash "${{ github.workspace }}/.github/scripts/setup-yarn.sh"
       - name: Install dependencies
         run: yarn install --frozen-lockfile --ignore-engines
 
